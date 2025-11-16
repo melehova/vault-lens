@@ -44,5 +44,8 @@ app.*.map.json
 /android/app/release
 
 # Generated files
-*.g.dart
+# *.g.dart  # Commented out - keeping database.g.dart in version control
 *.freezed.dart
+
+# Exception: Keep drift generated file
+!lib/data/database.g.dart
